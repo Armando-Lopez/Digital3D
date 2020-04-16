@@ -9,9 +9,8 @@ body {
   font-size: 1.3em;
 }
 
-#logo {
-  display: block;
-  margin: 1em auto;
+header {
+  text-align: center;
 }
 
 /*  hr raya*/
@@ -23,9 +22,6 @@ body {
 
 /* >> INICIO ESTILOS NAVEGACION<< */
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   padding: 1em 2em;
 }
 
@@ -35,10 +31,12 @@ nav a {
   color: black;
   background-color: gray;
   padding: 0 2em;
-  margin: 0 1em;
+  margin: 0 0.5em;
   border-radius: 5px;
 }
-
+nav a:active {
+  background-color: #ec8e01;
+}
 /* >> FIN ESTILOS NAVEGACION<< */
 
 /* >> INICIO ESTILOS QUIEN SOY<< */
@@ -65,9 +63,9 @@ nav a {
 }
 
 #quien-soy .description p {
+  text-align: justify;
   margin-top: 0.5em;
 }
-
 /* >>FIN ESTILOS QUIEN SOY<< */
 
 /* >>INICIO ESTILOS ¿A QUÉ ME DECICO?<<*/
@@ -79,7 +77,7 @@ nav a {
 }
 
 #a-que-me-dedico h1 {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 #a-que-me-dedico hr {
@@ -95,8 +93,7 @@ nav a {
 /* >>FIN ESTILOS ¿A QUÉ ME DECICO?<< */
 
 /* >> INICIO ESTILOS ¿CÓMO PUEDO AYUDARTE << */
-#como-puedo-ayudarte {
-}
+
 #como-puedo-ayudarte h1 {
   font-size: 2em;
   margin: 1em 0;
@@ -119,6 +116,9 @@ nav a {
 #como-puedo-ayudarte .cards-container .card h2 {
   text-align: center;
   margin-bottom: 0.5em;
+}
+#como-puedo-ayudarte .cards-container .card p {
+  text-align: justify;
 }
 #como-puedo-ayudarte .cards-container .card button {
   position: relative;
