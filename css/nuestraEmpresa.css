@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.3em;
+}
+
+header {
+    text-align: center;
+}
+
+/*  hr raya*/
+.hr-raya {
+    height: 3px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+
+/* >> INICIO ESTILOS NAVEGACION<< */
+nav {
+    padding: 1em 2em;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    background-color: gray;
+    padding: 0 2em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+}
+
+nav a:active {
+    background-color: #ec8e01;
+}
+
+/* >> FIN ESTILOS NAVEGACION<< */
+
+/*>> INICIO ESTILOS QUIENES SOMOS <<*/
+#q_somos {
+    display: flex;
+}
+
+#q_somos #img-container {
+    text-align: center;
+    padding: 1em;
+}
+
+#q_somos #img-container img {
+    width: 100%;
+}
+
+#q_somos #description {
+    padding: 2em;
+}
+
+#q_somos #description small {
+    font-size: 15px;
+
+}
+
+#q_somos hr {
+    width: 30%;
+    height: 3px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+
+#q_somos #description p {
+    width: 90%;
+    text-align: justify;
+    margin-top: 1em;
+}
+
+/*>> FIN ESTILOS QUIENES SOMOS<<*/
+
+/*>> INICIO ESTILOS NUESTRO EQUIPO<<*/
+#nuestro-equipo {
+    background-color: #6fa8dc;
+    text-align: center;
+    color: white;
+    padding: 1em 2em 3em 2em;
+}
+
+#nuestro-equipo h1 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+#nuestro-equipo hr {
+    margin: 0 auto;
+    width: 25%;
+    height: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+
+#nuestro-equipo p {
+    margin: 1em;
+}
+
+/*>> FIN ESTILOS NUESTRO EQUIPO<<*/
+
+/*>> INICIO ESTILOS NUESTROS EMPLEADOS<<*/
+#nuestros-empleados {
+    text-align: center;
+    padding: 1em;
+}
+
+#nuestros-empleados hr {
+    margin: 10px auto;
+    width: 25%;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+
+#nuestros-empleados table {
+    margin: 2em auto;
+    width: 80%;
+    text-align: start;
+}
+
+#nuestros-empleados table th {
+    text-align: left;
+    background-color: gray;
+}
+
+#nuestros-empleados table td {
+    height: 33px;
+    padding: 5px;
+}
+
+#nuestros-empleados table tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/*>> FIN ESTILOS NUESTROS EMPLEADOS<<*/
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+/*>> INICIO ESTILOS <<*/
+
+
+
+
+
+
+
+/*  */
+.borde {
+    border: 1px solid black;
+}

@@ -34,9 +34,11 @@ nav a {
   margin: 0 0.5em;
   border-radius: 5px;
 }
+
 nav a:active {
   background-color: #ec8e01;
 }
+
 /* >> FIN ESTILOS NAVEGACION<< */
 
 /* >> INICIO ESTILOS QUIEN SOY<< */
@@ -66,6 +68,7 @@ nav a:active {
   text-align: justify;
   margin-top: 0.5em;
 }
+
 /* >>FIN ESTILOS QUIEN SOY<< */
 
 /* >>INICIO ESTILOS ¿A QUÉ ME DECICO?<<*/
@@ -99,11 +102,13 @@ nav a:active {
   margin: 1em 0;
   text-align: center;
 }
+
 #como-puedo-ayudarte .cards-container {
   display: flex;
   justify-content: space-around;
   margin-bottom: 1em;
 }
+
 #como-puedo-ayudarte .cards-container .card {
   display: table;
   width: 350px;
@@ -113,13 +118,16 @@ nav a:active {
   border: 3px solid #2c78e3;
   border-radius: 3px;
 }
+
 #como-puedo-ayudarte .cards-container .card h2 {
   text-align: center;
   margin-bottom: 0.5em;
 }
+
 #como-puedo-ayudarte .cards-container .card p {
   text-align: justify;
 }
+
 #como-puedo-ayudarte .cards-container .card button {
   position: relative;
   display: block;
@@ -136,6 +144,7 @@ nav a:active {
   box-shadow: 3px 3px black;
   cursor: pointer;
 }
+
 /* >> FIN ESTILLOS ¿CÓMO PUEDO AYUDARTE << */
 
 /* >> INICIO ESTILOS HERRAMIENTAS DE DOMINIO << */
@@ -145,10 +154,12 @@ nav a:active {
   align-items: center;
   justify-content: center;
 }
+
 #herramientas h2 {
   color: white;
   margin-bottom: 1em;
 }
+
 #herramientas ul {
   margin: 0 auto;
   margin-bottom: 3em;
@@ -157,31 +168,36 @@ nav a:active {
   flex-direction: row;
   justify-content: center;
 }
+
 #herramientas ul li {
   display: block;
   padding: 20px;
   width: 20%;
   background-color: rgb(240, 239, 239);
 }
+
 #herramientas ul li .nombre {
   position: relative;
   top: -20px;
   left: -20px;
   background-color: gray;
 }
+
 #herramientas .logo {
   width: 100px;
 }
+
 /* >> FIN ESTILOS HERRAMIENTAS DE DOMINIO << */
 /* >> INICIO FOOTER << */
 footer {
   text-align: center;
   padding: 1em;
 }
+
 /* >> FIN FOOTER << */
 /* >> << */
-/* Estilos varios */
 
+/* Estilos varios */
 .borde {
   border: 1px solid black;
 }
