@@ -5,27 +5,42 @@
     <meta charset="UTF-8" />
     <title>Diseño digital 3D - CEO</title>
     <link rel="icon" href="imagenes/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/CEO.css">
 </head>
 
-<body>
-    <header class="borde">
-        <img id="logo" src="imagenes/logo.png" alt="LOGO">
-        <nav class="borde">
-            <a href="index.html" class="menu-activo">CEO</a>
-            <a href="nuestraEmpresa.html">Nuestra Empresa</a>
-            <a href="#cotizador">Cotizador</a>
+<body class="container-fluid">
+    <header>
+        <div class="row">
+            <div class="col-12 text-center">
+                <img id="logo" class="img-fluid" src="imagenes/logo.png" alt="LOGO">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">CEO</a></li>
+                    <li class="nav-item"><a href="nuestraEmpresa.html" class="nav-link">Nuestra Empresa</a></li>
+                    <li class="nav-item"><a href="#cotizador" class="nav-link">Cotizador</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main class="borde">
         <!-- Seccion de CEO empieza aquí -->
         <article id="ceo">
             <!-- QUIEN SOY -->
-            <section id="quien-soy">
-                <div class="borde foto">
-                    <img src="imagenes/unnamed.jpg" alt="FOTO Carlos David Peréz">
+            <section id="quien-soy" class="row align-items-center">
+                <div class="borde col-4">
+                    <img src="imagenes/unnamed.jpg" class="img-fluid" alt="FOTO Carlos David Peréz">
                 </div>
-                <div class="borde description">
+                <div class="borde description col-8">
                     <h1>Hola, soy Carlos David Peréz</h1>
                     <small class="upper">Y soy diseñador grafico</small>
                     <hr class="hr-raya">
@@ -47,27 +62,29 @@
             </section>
             <!-- FIN QUIEN SOY -->
             <!-- INICIO ¿A QUÉ ME DEDICO? -->
-            <section id="a-que-me-dedico" class="borde">
-                <h1>¿A qué me dedico?</h1>
-                <hr class="hr-raya">
-                <p>Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un
-                    trabajo
-                    que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del
-                    ordenador,
-                    cosa que nunca antes me había sucedido.</p>
-                <p>A lo largo de este tiempo, he podido trabajar con más de 30 clientes de alrededor del país y del
-                    mundo, y he creado y diseñado más de 60 webs, gracias a lo cual he ido mejorando cada día más,
-                    perfeccionando la técnica y la creatividad a la hora de realizar nuevos proyectos.</p>
-                <p>Realizo webs para particulares y empresas, sin importar su tamaño, aunque también colaboro
-                    directamente con agencias que necesitan externalizar el diseño web y deciden contar conmigo para
-                    crear las webs de sus clientes. Sea cual sea tu caso, no dudes en contactarme.</p>
+            <section id="a-que-me-dedico" class="borde row justify-content-center">
+                <div class="col-11  text-center bg-info text-white">
+                    <h1>¿A qué me dedico?</h1>
+                    <hr class="hr-raya">
+                    <p>Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un
+                        trabajo
+                        que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del
+                        ordenador,
+                        cosa que nunca antes me había sucedido.</p>
+                    <p>A lo largo de este tiempo, he podido trabajar con más de 30 clientes de alrededor del país y del
+                        mundo, y he creado y diseñado más de 60 webs, gracias a lo cual he ido mejorando cada día más,
+                        perfeccionando la técnica y la creatividad a la hora de realizar nuevos proyectos.</p>
+                    <p>Realizo webs para particulares y empresas, sin importar su tamaño, aunque también colaboro
+                        directamente con agencias que necesitan externalizar el diseño web y deciden contar conmigo para
+                        crear las webs de sus clientes. Sea cual sea tu caso, no dudes en contactarme.</p>
+                </div>
             </section>
             <!-- FIN ¿A QUÉ ME DEDICO? -->
             <!-- INICIO ¿CÓMO PUEDO AYUDARTE? -->
             <section id="como-puedo-ayudarte" class="borde">
-                <h1>¿Cómo puedo ayudarte?</h1>
-                <div class="cards-container">
-                    <div class="card">
+                <h1 class="text-center">¿Cómo puedo ayudarte?</h1>
+                <div class="cards-container row">
+                    <div class="col bg-warning m-2 p-2 text-justify text-white">
                         <h2>Diseño Litográfico</h2>
                         <p>
                             Nuestros servicios profesionales enfocados al diseño e impresión litográfica, nuestra
@@ -80,7 +97,7 @@
                         </p>
                         <button>Ver servicio</button>
                     </div>
-                    <div class="card">
+                    <div class="col bg-warning m-2 p-2 text-justify text-white">
                         <h2>Diseño tienda online</h2>
                         <p>
                             Te creo y diseño una tienda online completamente funcional con WordPress y WooCommerce para
@@ -89,7 +106,7 @@
                         </p>
                         <button>Ver servicio</button>
                     </div>
-                    <div class="card">
+                    <div class="col bg-warning m-2 p-2 text-justify text-white">
                         <h2>Mantenimiento web</h2>
                         <p>
                             Me encargo de tener tu web hecha con WordPress al día y sin problemas, manteniéndola
@@ -99,13 +116,14 @@
                         </p>
                         <button>Ver servicio</button>
                     </div>
+                </div>
             </section>
             </section>
             <!-- FIN ¿CÓMO PUEDO AYUDARTE? -->
             <!-- HERRAMIENTAS DE DOMINIO -->
             <section id="herramientas" class="borde">
-                <h2>Herramientas de mi dominio</h2>
-                <!-- <table border="1">
+                <h2 class="text-center">Herramientas de mi dominio</h2>
+                <table border="1" class="table">
                     <thead>
                         <tr>
                             <th>photoshop</th>
@@ -115,14 +133,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src="imagenes/Adobe_Photoshop_CS5_icon.png" alt="photoshop imagen"></td>
-                            <td><img src="imagenes/200px-Illustrator_CC_icon.png" alt="Illustrator imagen"></td>
-                            <td><img src="imagenes/corel.png" alt="CorelDRAW imagen">
+                            <td>
+                                <img src="imagenes/Adobe_Photoshop_CS5_icon.png" alt="photoshop imagen">
+                            </td>
+                            <td>
+                                <img src="imagenes/200px-Illustrator_CC_icon.png" alt="Illustrator imagen">
+                            </td>
+                            <td>
+                                <img src="imagenes/corel.png" alt="CorelDRAW imagen">
                             </td>
                         </tr>
                     </tbody>
-                </table> -->
-                <ul>
+                </table>
+                <!-- <ul>
                     <li class="borde">
                         <h5 class="nombre">photoshop</h5>
                         <br>
@@ -138,7 +161,7 @@
                         <br>
                         <img class="logo" src="imagenes/corel.png" alt="">
                     </li>
-                </ul>
+                </ul> -->
             </section>
             <!-- FIN HERRAMIENTAS DE DOMINIO -->
             <!-- Fin CEO -->
@@ -147,6 +170,15 @@
     <footer>Copyright © 2020 | Medellín - <a href="https://www.antioquia.gov.co/" target="_blank">Antioquia </a>,
         Colombia | Nuestra
         empresa | Contacto</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
